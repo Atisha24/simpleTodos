@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.todo-card-container {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+
+.todo-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  font-size: 12px;
+  font-family: 'Roboto';
+  background-color: white;
+  color: #ff0b37;
+  border: 2px;
+  border-style: solid;
+  border-color: #ff0b37;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  margin-left: 16px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .delete-btn {
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}
